@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/bash -xv
 
 out=$(seq 5 | ./plus)
 
-[ "${out}" = "和15 ]
+[ "${out}" = "和は 15" ]
